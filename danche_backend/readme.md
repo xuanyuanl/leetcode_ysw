@@ -10,6 +10,18 @@ du -sh node_modules 查看这个文件夹的大小，du -h node_modules  查看�
 cat package.json 输出package.json文件
 
 
+git add .
+git commit -m 's'
+git push origin master
+
+git pull origin master
+yarn 安装依赖
+
 cd danche_backend
 cat package.json
 yarn add koa
+
+删除node_modules
+git rm
+.gitignore
+提交删除
